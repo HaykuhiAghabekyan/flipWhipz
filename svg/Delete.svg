@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>C9663159-AC32-4641-98BD-3ED362104A82</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7,0 C10.86575,0 14,3.13425 14,7 C14,10.86575 10.86575,14 7,14 C3.13425,14 0,10.86575 0,7 C0,3.13425 3.13425,0 7,0 Z M7.05892557,7.76603238 L9.12132042,9.82842723 L9.82842723,9.12132042 L7.76603238,7.05892557 L9.8873528,4.93760514 L9.06239486,4.1126472 L6.94107443,6.23396762 L4.87867958,4.17157277 L4.17157277,4.87867958 L6.23396762,6.94107443 L4.1126472,9.06239486 L4.93760514,9.8873528 L7.05892557,7.76603238 Z" id="path-1"></path>
+    </defs>
+    <g id="Car-Listing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Estimation-send" transform="translate(-905.000000, -1012.000000)">
+            <g id="Group-3" transform="translate(519.000000, 1012.000000)">
+                <g id="ic/check-copy" transform="translate(386.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F82200" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

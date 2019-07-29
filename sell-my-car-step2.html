@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sell-my-car-step2.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>FlipWhipz</title>
+</head>
+
+<body>
+    <!-- =========================== HEADER ============================== -->
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  ">
+                <a class="navbar-brand" href="index.html">FlipWhipz</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-between">
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="index.html">car listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="action.html">action</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="financing.html">financing</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sell-my-car.html">sell my car</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about-us.html">about us <i class="fas fa-angle-down"></i></a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="personal-block row fa-align-center">
+                    <div><img src="svg/Icon.svg" alt="icon"></div>
+                    <div class="emvelope"><img src="img/Emvelope.png" alt="Emvelope"></div>
+                    <div class="bell"><img src="img/Bell.png" alt="bell"><span></span></div>
+                    <div class="avatar"> <img src="img/avatar.jpg" alt="avatar"></div>
+                    <div class="avatar-icon"> <img src="svg/Angle_Down.svg" alt="angle"> </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                    </div>
+                </button>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+    <!-- ================================================================= -->
+
+    <main class="estimate">
+        <div class="container">
+        <section class="col-xl-8 col-11 m-auto estimate-body">
+            <div class="bord-top row">
+                <p class="col-8"></p>
+            </div>
+
+            <h1>Get an estimate</h1>
+            <p class="sb-title">Get your car valuation and find out how much you can get</p>
+
+            <div class="col-lg-10 col-11 m-auto">
+                <div class="question-box row justify-content-between align-items-center">
+                    <p class="m-0 p-0  col-8 ">Is the vehicle currently being financed?</p>
+                    <div class="">
+                        <input type="hidden"   id="0">
+                        <label class="form-check-label yes" role="0">
+                            <input type="radio" class="form-check-input" name="name0" value="yes"> yes
+                        </label>
+                        <label class="form-check-label no" role="0">
+                            <input type="radio" class="form-check-input" name="name0" value="no"> no
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                    <p class="mb-0 col-8 p-0">Have you or any passengers smoked in your car?</p>
+                    <div>
+                        <input type="hidden"   id="1">
+                        <label class="form-check-label yes" role="1">
+                            <input type="radio" class="form-check-input" name="name1" value="yes"> yes
+                        </label>
+                        <label class="form-check-label no" role="1">
+                            <input type="radio" class="form-check-input" name="name1" value="no"> no
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                    <p class="m-0 p-0  col-8">Does it have any other lingering odors (often from spills, pets, mildew or
+                        mold)? </p>
+                    <div class="">
+                        <input type="hidden"   id="2">
+                        <label class="form-check-label yes" role="2">
+                            <input type="radio" class="form-check-input" name="name2" value="yes"> yes
+                        </label>
+                        <label class="form-check-label no" role="2">
+                            <input type="radio" class="form-check-input" name="name2" value="no"> no
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8">Are you the original owner?  </p>
+                        <div class="">
+                            <input type="hidden"   id="3">
+                            <label class="form-check-label yes" role="3">
+                                <input type="radio" class="form-check-input" name="name3" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="3">
+                                <input type="radio" class="form-check-input" name="name3" value="no"> no
+                            </label>
+                        </div>
+    
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8">Do you have a free and clear title? Select “No” if your vehicle is leased or financed.   </p>
+                        <div class="">
+                            <input type="hidden"   id="4">
+                            <label class="form-check-label yes" role="4">
+                                <input type="radio" class="form-check-input" name="name4" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="4">
+                                <input type="radio" class="form-check-input" name="name4" value="no"> no
+                            </label>
+                        </div>
+    
+                </div>
+
+                <!-- <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8">Does your vehicle have a clean history report?  </p>
+                        <div class="">
+                            <input type="hidden"   id="5">
+                            <label class="form-check-label yes" role="5">
+                                <input type="radio" class="form-check-input" name="name5" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="5">
+                                <input type="radio" class="form-check-input" name="name5" value="no"> no
+                            </label>
+                        </div>
+    
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8">Has an insurance claim ever been filed on this vehicle?  </p>
+                        <div class="">
+                            <input type="hidden"   id="6">
+                            <label class="form-check-label yes" role="6">
+                                <input type="radio" class="form-check-input" name="name6" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="6">
+                                <input type="radio" class="form-check-input" name="name6" value="no"> no
+                            </label>
+                        </div>
+    
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8">Are complete service records available?   </p>
+                        <div class="">
+                            <input type="hidden"   id="7">
+                            <label class="form-check-label yes" role="7">
+                                <input type="radio" class="form-check-input" name="name7" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="7">
+                                <input type="radio" class="form-check-input" name="name7" value="no"> no
+                            </label>
+                        </div>
+    
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8">Are 2 sets of keys and alarm pad (if applicable) available? </p>
+                        <div class="">
+                            <input type="hidden"   id="8">
+                            <label class="form-check-label yes" role="8">
+                                <input type="radio" class="form-check-input" name="name8" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="8">
+                                <input type="radio" class="form-check-input" name="name8" value="no"> no
+                            </label>
+                        </div>
+    
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8">Has this vehicle been to an auto auction in the last 45 days? </p>
+                        <div class="">
+                            <input type="hidden"   id="9">
+                            <label class="form-check-label yes" role="9">
+                                <input type="radio" class="form-check-input" name="name9" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="9">
+                                <input type="radio" class="form-check-input" name="name9" value="no"> no
+                            </label>
+                        </div>
+    
+                </div>
+
+                <div class="question-box row justify-content-between align-items-center">
+                        <p class="m-0 p-0  col-8"> Has this car ever been used as a rental car?  </p>
+                        <div class="">
+                            <input type="hidden"   id="10">
+                            <label class="form-check-label yes" role="10">
+                                <input type="radio" class="form-check-input" name="name10" value="yes"> yes
+                            </label>
+                            <label class="form-check-label no" role="10">
+                                <input type="radio" class="form-check-input" name="name10" value="no"> no
+                            </label>
+                        </div>
+    
+                </div> -->
+
+                
+
+
+                <a href="" class="btn btn-block col-7 next-step">next step</a>
+
+
+
+            </div>
+
+
+        </section>
+    </div>
+    </main>
+
+    <!-- ============================ FOOTER ============================= -->
+
+   <footer> 
+        <div class="container">
+            <span class="to-top fas fa-chevron-up"></span>
+            <a href="index.html">flipwhipz</a>
+
+            <div class="row mt-5 ">
+                <div class="col-lg-3 col-sm-6">
+                    <h5>about</h5>
+                    <ul>
+                        <li><a href="">Who we are</a></li>
+                        <li><a href="">Who choose us</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="">Flipwhipz for business</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>services</h5>
+                    <ul>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>contact us</h5>
+                    <ul>
+                        <li class="pr-lg-3">66 Perry St, New York, NY 10014, United States</li>
+                        <li><a href="tel:+458787814">+45 878-78-14</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>subscribe</h5>
+                    <ul>
+                        <li>Join our newsletter to get updates </li>
+                        <li>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email"
+                                        aria-label="Recipient's username"  >
+                                    <div class="input-group-append">
+                                        <button class="btn" type="button">join</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="soc-icon">
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row copy">
+                <div class="col-md-6">
+                    <a href="terms-of-use.html">Terms of use </a>
+                    <a href="privacy-policy.html">Privacy policy </a>
+                    <a href="download.html">Download</a>
+                    <a href="news.html"> News</a>
+                </div>
+                <div class="col-md-6 text-md-right"> © 2019 FlipWhipz. All rights reserved</div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $(this).scrollTop() > 100 ?
+                    $('.to-top').fadeIn(500) :
+                    $('.to-top').fadeOut(500)
+            })
+
+            $('.to-top').click(() => {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('.wrapper-menu').click(function () {
+                $(this).toggleClass('open');
+                $('.collapse').slideToggle()
+            })
+
+
+
+
+            $('label').click(function (e) {
+                e.preventDefault();
+                let x = $(this).attr('role');
+                let y = $(this).children('input').val();
+                $(this).next().removeClass('active');
+                $(this).prev().removeClass('active');
+                $(this).addClass('active');
+                $('input#' + x).val(y);
+                console.log(x+'-', $('input#' + x).val())
+            })
+
+
+
+        })
+    </script>
+
+</body>
+</html>

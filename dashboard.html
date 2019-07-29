@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>FlipWhipz</title>
+</head>
+
+<body>
+    <!-- =========================== HEADER ============================== -->
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  ">
+                <a class="navbar-brand" href="index.html">FlipWhipz</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-between">
+
+                        <li class="nav-item active ">
+                            <a class="nav-link" href="dashboard.html">dashboard</a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="index.html">car listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="action.html">auction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="financing.html">financing</a>
+                        </li>
+                        <li class="nav-item about">
+                            <a class="nav-link dropdown_toggle " href="#">about us <i class="fas fa-angle-down"></i></a>
+
+                            <ul class="dropdown">
+                                <li><a href="">dropdown</a></li>
+                                <li><a href="">dropdown</a></li>
+                                <li><a href="">dropdown</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="personal-block row fa-align-center">
+                    <div><a href="#"> <img src="svg/Icon.svg" alt="icon"></a></div>
+                    <div class="emvelope"><a href="#"> <img src="img/Emvelope.png" alt="Emvelope"></a></div>
+                    <div class="bell">
+                        <a href="#"> <img src="img/Bell.png" alt="bell"><span class="not-count"></span></a>
+
+
+                        <div class="notifications">
+                            <h3>notifications</h3>
+                            <ul>
+                                <li class="row align-items-center">
+                                    <div class="avatar mr-2"> <img src="img/avatar.jpg" alt="avatar"></div>
+                                    <div class="col">
+                                        <h5>brigit dawson</h5>
+                                        <span>4 hours ago</span>
+                                        <a href="">link</a>
+                                    </div>
+                                    <span class="new-not"></span>
+                                </li>
+                                <li class="row align-items-center">
+                                    <div class="avatar mr-2"> <img src="img/avatar.jpg" alt="avatar"></div>
+                                    <div class="col">
+                                        <h5>brigit dawson</h5>
+                                        <span>4 hours ago</span>
+                                        <a href="">link</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="see-all">See All</a>
+
+                        </div>
+
+
+                    </div>
+                    <div class="avatar"> <img src="img/avatar.jpg" alt="avatar"></div>
+                    <div class="avatar-icon dropdown_toggle"> <img src="svg/Angle_Down.svg" alt="angle"> </div>
+
+                    <ul class="dropdown">
+                        <li><a href="">dropdown</a></li>
+                        <li><a href="">dropdown</a></li>
+                        <li><a href="">dropdown</a></li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                    </div>
+                </button>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+    <!-- ================================================================= -->
+
+    <main>
+        <div class="container">
+            <div class="row justify-content-between ml-0 mr-0 ">
+                <div class="welcome col-md-9 p-0">
+                    <h1> <span>👋</span> welcome, jon!</h1>
+                    <p>You have completed <span>25%</span> of your profile, finish setting up your account</p>
+                </div>
+                <div class="col-md-3 p-0 text-right sel-buy-view">
+                    <a href="#" class="btn buyer-view">buyer view</a>
+                    <a href="#" class="btn seller-view text-light">seller view</a>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <aside>
+                        <div class="card">
+                            <div class="m-0 card-header row justify-content-between align-items-center">
+                                <h2>your profile</h2>
+                                <span class="edit">edit</span>
+                            </div>
+                            <div class="card-body bg-white">
+
+                                <div class="dash-avatar row  align-items-center">
+                                    <div class="avatar_52 mr-lg-3 mr-1"><img src="img/avatar.jpg" alt=""></div>
+                                    <h3>jon snow</h3>
+                                </div>
+                                <p class="loc-time"><span class="fas fa-map-marker-alt mr-2"></span>Los Angeles, Beverly
+                                    Hills</p>
+                                <p class="loc-time"><span class="fas fa-clock mr-2"></span>18.02.2019</p>
+
+                                <ul class="list-group verify">
+                                        <li class="list-group-item row justify-content-between p-lg-3 p-1"> <p class="col-10 m-0 p-0"> Verify (Identity and
+                                            Vehicle Info)</p> <span ></span></li>
+
+                                        <li class="list-group-item row justify-content-between  p-lg-3 p-1"> <p class="col-10 m-0 p-0"> Vehicle Info</p> <span class="active"></span></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card balance mt-4 ">
+                            <div class="card-body text-white">
+                                <p class="card-text">account balance</p>
+
+                                <h2 class="card-title text-white text-uppercase">680 flipcoins</h2>
+                                <a href="#" class="btn btn-light col-lg-5 col-7 mt-2">Buy FLP </a>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                <h2>widgets</h2>
+                            </div>
+
+                            <div class="card-body widgets">
+                                <ul class="mb-0">
+
+                                    <li class="row align-items-center mb-lg-3 mb-2">
+                                        <div class="col-md-3 col-2 pr-0"><img src="img/dashboard/trade.png" alt=""></div>
+                                        <div class="col-md-8 col-9">
+                                            <h5>trade-in</h5>
+                                            <p>You Only Deal With the Dealer. It is fast and convenient</p>
+                                        </div>
+                                        <span class="fas fa-chevron-right "></span>
+                                    </li>
+
+                                    <li class="row align-items-center mb-lg-3 mb-2">
+                                        <div class="col-md-3 col-2 pr-0"><img src="img/dashboard/trade.png" alt=""></div>
+                                        <div class="col-md-8 col-9">
+                                            <h5>Recondition</h5>
+                                            <p>Buy high quality cars by cheaper price </p>
+                                        </div>
+                                        <span class="fas fa-chevron-right "></span>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+
+                            <div id="datepicker"></label>
+
+                            </div>
+                            <button class="btn text-white schedule btn-block"> <span
+                                    class="mr-2 fas fa-calendar-alt"></span> Schedule Appointment</button>
+                    </aside>
+                </div>
+
+                <div class="col-md-8">
+                    <!-- ========================================= OFFER TIMELINE ========================================= -->
+                    <div class="card offer-timeline ">
+                        <div class="card-header row m-0 justify-content-between time-line align-items-center">
+                            <h2 class="mb-0">offer timeline</h2>
+                            <div class="custom-select col-xl-3 col-sm-4 col-5">
+                                <select>
+                                    <option value="">Incoming offers</option>
+                                    <option value="">Incoming offers</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body bg-white accordion-item row ml-0 mr-0 pt-0 pb-0 position-relative justify-content-between">
+                            <div class="col">
+                                <p class="line"></p>
+                            </div>
+                            <div class="cards pb-3">
+
+                                    <div class="card mt-4 progress-bg">
+                                            <div class="card-header row m-0 align-items-center">
+                                                <h3 class="pl-0 col-11 mb-0">
+                                                    <span class="caret fas fa-caret-down"></span>
+                                                    Schedule Test Drive</h3>
+                                                <span class="text-right col-1 p-0"><i class="fas fa-ellipsis-v setting "></i></span>
+                                            </div>
+                                            <div class="card-body test-drive">
+                                                <div class=" row m-0">
+                                                    <div class=" accor-img">
+                                                        <img src="img/1.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-10 col-sm-8 mt-sm-0 mt-2 pl-0 pl-sm-2">
+                                                        <h4 class="">2016 Audi A4 2.0T quattro Premium Plus Sedan AWD <a href=""
+                                                                class="ml-2"><span class="fas fa-external-link-alt"></span></a>
+                                                        </h4>
+                                                        <p class="desc-car ">2016 • 201 000 km • 1800 cm3 • Gas • 2 owners</p>
+                                                        <span class="in-progress"> in progress</span>
+                                                    </div>
+                                                </div>
+        
+                                                <p class="mt-sm-4 mt-2 hex"><span class="fas fa-user"></span>#E8E9EA</p>
+                                                <p><span class="fas fa-map-marker-alt"></span>Service Center at Infiniti, 192 N
+                                                    Robertson Blvd, Beverly Hills, CA 90211 <a href="" class="open-map">open
+                                                        map</a></p>
+                                                <p><span class="fas fa-calendar"></span>12/12/2019 12:54</p>
+                                                <p><span class="fas fa-credit-card"></span>220 FLP Coins</p>
+        
+                                                <div class="row m-0 justify-content-between align-items-center mt-sm-4 mt-2">
+                                                    <div>
+                                                        <button class="btn btn-outline-success text-capitalize"><span
+                                                                class="mr-lg-2 mr-1 fas fa-check-circle"></span>accept</button>
+                                                        <button class="btn btn-outline-info text-capitalize"><span
+                                                                class="mr-lg-2 mr-1 fas fa-clock"></span>reschedule</button>
+                                                        <button class="btn btn-outline-danger text-capitalize"><span
+                                                                class="mr-lg-2 mr-1 fas fa-times-circle"></span>decline</button>
+                                                    </div>
+                                                    <span class="date-time">1 Aug, 11:08 PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mt-4 accepted-bg">
+                                            <div class="card-header row m-0 align-items-center">
+                                                <h3 class="pl-0 col-11 mb-0">
+                                                    <span class="caret fas fa-caret-down"></span>
+                                                    Schedule Test Drive</h3>
+                                                <span class="text-right col-1 p-0"><i class="fas fa-ellipsis-v setting "></i></span>
+                                            </div>
+                                            <div class="card-body test-drive">
+                                                <div class=" row m-0">
+                                                    <div class=" accor-img">
+                                                        <img src="img/1.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-10 col-sm-8 mt-sm-0 mt-2 pl-0 pl-sm-2">
+                                                        <h4 class="">2016 Audi A4 2.0T quattro Premium Plus Sedan AWD <a href=""
+                                                                class="ml-2"><span class="fas fa-external-link-alt"></span></a>
+                                                        </h4>
+                                                        <p class="desc-car ">2016 • 201 000 km • 1800 cm3 • Gas • 2 owners</p>
+                                                        <span class="in-progress"> in progress</span>
+                                                    </div>
+                                                </div>
+        
+                                                <p class="mt-sm-4 mt-2 hex"><span class="fas fa-user"></span>#E8E9EA</p>
+                                                <p><span class="fas fa-map-marker-alt"></span>Service Center at Infiniti, 192 N
+                                                    Robertson Blvd, Beverly Hills, CA 90211 <a href="" class="open-map">open
+                                                        map</a></p>
+                                                <p><span class="fas fa-calendar"></span>12/12/2019 12:54</p>
+                                                <p><span class="fas fa-credit-card"></span>220 FLP Coins</p>
+        
+                                                <div class="row m-0 justify-content-between align-items-center mt-sm-4 mt-2">
+                                                    <div>
+                                                        <button class="btn btn-outline-success text-capitalize"><span
+                                                                class="mr-lg-2 mr-1 fas fa-check-circle"></span>accept</button>
+                                                        <button class="btn btn-outline-info text-capitalize"><span
+                                                                class="mr-lg-2 mr-1 fas fa-clock"></span>reschedule</button>
+                                                        <button class="btn btn-outline-danger text-capitalize"><span
+                                                                class="mr-lg-2 mr-1 fas fa-times-circle"></span>decline</button>
+                                                    </div>
+                                                    <span class="date-time">1 Aug, 11:08 PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                            </div>
+
+                            <!-- ========================================= OFFER TIMELINE ========================================= -->
+                        </div>
+
+                    </div>
+                    <!-- ========================================= AUCTIONS TODAY ========================================= -->
+                    <div class="card mt-4 auctions">
+                        <div class="card-header">
+                            <h2>auctions today</h2>
+                        </div>
+
+                        <div class="card-body pb-0">
+                            <ul class="list-group text-capitalize">
+                                <li class="list-group-item row">
+                                    <div class="col">
+                                        <p>Audi A4 Limousine</p>
+                                        <span>02/12/2019</span>
+                                    </div>
+                                    <div class="col">
+                                        <p>lane a</p>
+                                        <span>110 slot</span>
+                                    </div>
+                                    <div class="col">
+                                        <p>florida</p>
+                                        <span>miami south</span>
+                                    </div>
+                                    <div class="col-lg-2 col-1 align-self-center p-0">
+                                            <button class="btn join btn-danger text-capitalize pl-lg-4 pl-2  pr-lg-4  pl-2">join</button>
+                                        </div>
+                                </li>
+                         
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <!-- ============================ FOOTER ============================ -->
+    <footer>
+        <div class="container">
+            <span class="to-top fas fa-chevron-up"></span>
+            <a href="index.html">flipwhipz</a>
+
+            <div class="row mt-5 ">
+                <div class="col-lg-3 col-sm-6">
+                    <h5>about</h5>
+                    <ul>
+                        <li><a href="">Who we are</a></li>
+                        <li><a href="">Who choose us</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="">Flipwhipz for business</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>services</h5>
+                    <ul>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>contact us</h5>
+                    <ul>
+                        <li class="pr-lg-3">66 Perry St, New York, NY 10014, United States</li>
+                        <li><a href="tel:+458787814">+45 878-78-14</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>subscribe</h5>
+                    <ul>
+                        <li>Join our newsletter to get updates </li>
+                        <li>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email"
+                                        aria-label="Recipient's username">
+                                    <div class="input-group-append">
+                                        <button class="btn" type="button">join</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="soc-icon">
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row copy">
+                <div class="col-md-6">
+                    <a href="terms-of-use.html">Terms of use </a>
+                    <a href="privacy-policy.html">Privacy policy </a>
+                    <a href="download.html">Download</a>
+                    <a href="news.html"> News</a>
+                </div>
+                <div class="col-md-6 text-md-right"> © 2019 FlipWhipz. All rights reserved</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $(this).scrollTop() > 100 ?
+                    $('.to-top').fadeIn(500) :
+                    $('.to-top').fadeOut(500)
+            })
+
+            $('.to-top').click(() => {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('.wrapper-menu').click(function () {
+                $(this).toggleClass('open');
+                $('.collapse').slideToggle()
+            })
+            
+            $(function () {
+                $("#datepicker").datepicker();
+            });
+
+
+            $('.cards .card-header').click(function () {
+                let isActive = $(this).hasClass('act');
+
+                if (!isActive) {
+                    $('.cards .card-header').removeClass('act');
+                    $('.cards .card-body').slideUp();
+                    $(this).next().slideDown(500);
+                    $('.caret').attr('class', 'fas fa-caret-down caret');
+                    $(this).find('.caret').attr('class', 'fas fa-caret-up caret');
+                    $(this).addClass("act");
+
+                } else {
+                    $(this).next().slideUp(500);
+                    $(this).removeClass("act");
+                    $(this).find('.caret').attr('class', 'fas fa-caret-down caret');
+
+                    $(this).removeClass("act");
+
+                }
+
+            })
+
+
+        })
+        let x, i, j, selElmnt, a, b, c;
+        x = document.querySelectorAll(".custom-select ");
+        for (i = 0; i < x.length; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items select-hide");
+            for (j = 1; j < selElmnt.length; j++) {
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function (e) {
+                    let y, i, k, s, h;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < s.length; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected");
+                            for (k = 0; k < y.length; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected");
+                            break;
+                        }
+                    }
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function (e) {
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide");
+                this.classList.toggle("select-arrow-active");
+            });
+        }
+
+        function closeAllSelect(elmnt) {
+            var x, y, i, arrNo = [];
+            x = document.getElementsByClassName("select-items");
+            y = document.getElementsByClassName("select-selected");
+            for (i = 0; i < y.length; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active");
+                }
+            }
+            for (i = 0; i < x.length; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide");
+                }
+            }
+        }
+
+        document.addEventListener("click", closeAllSelect);
+    </script>
+
+</body>
+</html>

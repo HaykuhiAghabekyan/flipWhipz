@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>0782D677-43EC-4C0B-B2F2-41C075832C6F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7,0 C10.86575,0 14,3.13425 14,7 C14,10.86575 10.86575,14 7,14 C3.13425,14 0,10.86575 0,7 C0,3.13425 3.13425,0 7,0 Z M10.5875001,3.61917596 L5.94999997,8.04902666 L4.11249993,6.2938028 L2.8919497,7.45970149 L5.94999997,10.380824 L11.8080503,4.78507465 L10.5875001,3.61917596 Z M10.5874997,4.78082412 L10.5919495,4.78507467 L5.94999987,9.21917604 L4.10805013,7.45970158 L4.11249993,7.45545103 L5.94999987,9.21067494 L10.5874997,4.78082412 Z" id="path-1"></path>
+    </defs>
+    <g id="Car-Listing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Car-Single-Page-(Buyer-View)" transform="translate(-180.000000, -701.000000)">
+            <g id="Group-9-Copy" transform="translate(165.000000, 302.000000)">
+                <g id="Group-23" transform="translate(15.000000, 397.000000)">
+                    <g id="Icon-Copy-4" transform="translate(0.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="color/grey" mask="url(#mask-2)" fill="#009D53">
+                            <rect id="Rectangle" x="0" y="0" width="14" height="14"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

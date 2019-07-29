@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/esimation-steps.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Esimate</title>
+
+    <style>
+        .bord-top p {
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- =========================== HEADER ============================== -->
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  ">
+                <a class="navbar-brand" href="index.html">FlipWhipz</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-between">
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="index.html">car listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="action.html">action</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="financing.html">financing</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sell-my-car.html">sell my car</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about-us.html">about us <i class="fas fa-angle-down"></i></a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="personal-block row fa-align-center">
+                    <div><img src="svg/Icon.svg" alt="icon"></div>
+                    <div class="emvelope"><img src="img/Emvelope.png" alt="Emvelope"></div>
+                    <div class="bell"><img src="img/Bell.png" alt="bell"><span></span></div>
+                    <div class="avatar"> <img src="img/avatar.jpg" alt="avatar"></div>
+                    <div class="avatar-icon"> <img src="svg/Angle_Down.svg" alt="angle"> </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                    </div>
+                </button>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+    
+    <!-- ================================================================= -->
+
+    <main class="estimate">
+        <div class="container">
+            <div class=" estimate-body st-2">
+                <div class="bord-top row m-0">
+                    <p></p>
+                </div>
+                <h1>Get an estimate</h1>
+                <p class="sb-title">Get your car valuation and find out how much you can get</p>
+                <div>
+                    <div class="choosed-values row ">
+                        <div class="choose-tab">2014<button class=" btn btn-transparent p-0 ml-3"><span
+                                    class="fas fa-times"></span></button></div>
+                    </div>
+                    <h2 class="select-make">select make</h2>
+                    <form>
+                        <div class="row select-box">
+
+                            <div class="col-sm-3 col-5">
+                                <h3>a-g</h3>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="acura">
+                                    <span class="checkmark"></span>acura
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="audi">
+                                    <span class="checkmark"></span>audi
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="BMW">
+                                    <span class="checkmark"></span>BMW
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="cadillac">
+                                    <span class="checkmark"></span>cadillac
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="chevrolet">
+                                    <span class="checkmark"></span>chevrolet
+                                </label>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="chrysler">
+                                    <span class="checkmark"></span>chrysler
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="dodge">
+                                    <span class="checkmark"></span>dodge
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="fiat">
+                                    <span class="checkmark"></span>fiat
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="ford">
+                                    <span class="checkmark"></span>ford
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="GMC">
+                                    <span class="checkmark"></span>GMC
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="Geo">
+                                    <span class="checkmark"></span>Geo
+                                </label>
+                            </div>
+
+                            <div class="col-sm-3 col-5">
+                                <h3>h-l</h3>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="honda">
+                                    <span class="checkmark"></span>honda
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="hummer">
+                                    <span class="checkmark"></span>hummer
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="huyindai">
+                                    <span class="checkmark"></span>
+                                    huyindai
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="infiniti">
+                                    <span class="checkmark"></span>
+                                    infiniti
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="2005">
+                                    <span class="checkmark"></span>
+                                    2005
+                                </label>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="jaguar">
+                                    <span class="checkmark"></span>
+                                    jaguar
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="jeep">
+                                    <span class="checkmark"></span>
+                                    jeep
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="kia">
+                                    <span class="checkmark"></span>
+                                    kia
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="2001">
+                                    <span class="checkmark"></span>
+                                    2001
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="lexus">
+                                    <span class="checkmark"></span>
+                                    lexus
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="lincoln">
+                                    <span class="checkmark"></span>
+                                    lincoln
+                                </label>
+                            </div>
+
+                            <div class="col-sm-3 col-5">
+                                <h3>m-p</h3>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="mazda">
+                                    <span class="checkmark"></span>mazda
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="mercedes-benz">
+                                    <span class="checkmark"></span>mercedes-benz
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="mercury">
+                                    <span class="checkmark"></span>
+                                    mercury
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="mini">
+                                    <span class="checkmark"></span>
+                                    mini
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="mithubishi">
+                                    <span class="checkmark"></span>
+                                    mithubishi
+                                </label>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="nissan">
+                                    <span class="checkmark"></span>
+                                    nissan
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="oldsmobile">
+                                    <span class="checkmark"></span>
+                                    oldsmobile
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="plymouth">
+                                    <span class="checkmark"></span>
+                                    plymouth
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="pontiac">
+                                    <span class="checkmark"></span>
+                                    pontiac
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="porsche">
+                                    <span class="checkmark"></span>
+                                    porsche
+                                </label>
+                            </div>
+
+
+                            <div class="col-sm-3 col-5">
+                                <h3>r-z</h3>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="ram">
+                                    <span class="checkmark"></span>ram
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="saab">
+                                    <span class="checkmark"></span>saab
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="saturn">
+                                    <span class="checkmark"></span>
+                                    saturn
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="scion">
+                                    <span class="checkmark"></span>
+                                    scion
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="smart">
+                                    <span class="checkmark"></span>
+                                    smart
+                                </label>
+
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="subaru">
+                                    <span class="checkmark"></span>
+                                    subaru
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="suzuki">
+                                    <span class="checkmark"></span>
+                                    suzuki
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="tesla">
+                                    <span class="checkmark"></span>
+                                    tesla
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="toyota">
+                                    <span class="checkmark"></span>
+                                    toyota
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="volkswagen">
+                                    <span class="checkmark"></span>
+                                    volkswagen
+                                </label>
+                                <label class="select-container">
+                                    <input type="radio" name="make" value="volvo">
+                                    <span class="checkmark"></span>
+                                    volvo
+                                </label>
+                            </div>
+                        </div>
+
+
+
+
+                    </form>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <!-- ======================================================================== -->
+
+    <footer>
+        <div class="container">
+            <span class="to-top fas fa-chevron-up"></span>
+            <a href="index.html">flipwhipz</a>
+
+            <div class="row mt-5 ">
+                <div class="col-lg-3 col-sm-6">
+                    <h5>about</h5>
+                    <ul>
+                        <li><a href="">Who we are</a></li>
+                        <li><a href="">Who choose us</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="">Flipwhipz for business</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>services</h5>
+                    <ul>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>contact us</h5>
+                    <ul>
+                        <li class="pr-lg-3">66 Perry St, New York, NY 10014, United States</li>
+                        <li><a href="tel:+458787814">+45 878-78-14</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>subscribe</h5>
+                    <ul>
+                        <li>Join our newsletter to get updates </li>
+                        <li>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email"
+                                        aria-label="Recipient's username">
+                                    <div class="input-group-append">
+                                        <button class="btn" type="button">join</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="soc-icon">
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row copy">
+                <div class="col-md-6">
+                    <a href="terms-of-use.html">Terms of use </a>
+                    <a href="privacy-policy.html">Privacy policy </a>
+                    <a href="download.html">Download</a>
+                    <a href="news.html"> News</a>
+                </div>
+                <div class="col-md-6 text-md-right"> © 2019 FlipWhipz. All rights reserved</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $(this).scrollTop() > 100 ?
+                    $('.to-top').fadeIn(500) :
+                    $('.to-top').fadeOut(500)
+            })
+
+            $('.to-top').click(() => {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('.wrapper-menu').click(function () {
+                $(this).toggleClass('open');
+                $('.collapse').slideToggle()
+            })
+
+
+        })
+    </script>
+
+</body>
+
+</html>

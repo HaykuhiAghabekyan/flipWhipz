@@ -1,0 +1,227 @@
+
+/* ================================================= */
+
+.select-items::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+}
+
+.select-items::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.select-items::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    border: 15px none #ffffff;
+    border-radius: 50px;
+}
+
+.select-items::-webkit-scrollbar-thumb:active {
+    background: #949494;
+}
+
+.select-items::-webkit-scrollbar-track {
+    background: #f7f7f7;
+    border: 13px none #ffffff;
+    border-radius: 50px;
+}
+
+.select-items::-webkit-scrollbar-track:active {
+    background: #dddddd;
+}
+
+.select-items::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.select-active {
+    border: 1px solid #028FEE;
+    border-bottom: none;
+}
+
+/* ========================================================= */
+
+.check-option {
+    color: rgba(110, 118, 143, 1);
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox span {
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid #6E768F;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin-right: 11px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+label {
+    color: #6E768F;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+}
+.check-colors label{
+    margin: 0 0 20px 0 ;
+}
+.checkbox .check-option {
+    color: #272831;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.47px;
+    line-height: 18px;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+input[type='checkbox']:checked~span, .check-option:hover input~span {
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+    background: #028FEE;
+}
+
+.check-option input:checked~span:after, .check-colors input:checked~span::after {
+    display: block;
+}
+
+.check-option span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.check-colors span::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 11px;
+    top: 5px;
+    width: 8px;
+    height: 13px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* =============== */
+
+.estimate h2 {
+    color: #272831;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 9% 0 5%;
+    text-transform: capitalize;
+}
+
+.irreversible textarea::placeholder {
+    color: rgba(16, 24, 48, .5);
+}
+
+.select-arrow-active,.active-border p {
+    border-color: #028FEE !important;
+    border-bottom: none;
+}
+
+.irreversible textarea {
+    color: #028FEE !important;
+    padding: 5%;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.47px;
+    line-height: 18px;
+    border: 1px solid #CED7E0;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+}
+
+.estimate button:hover {
+    color: #fff;
+    opacity: .8;
+}
+
+.estimate button {
+    background-color: #028FEE;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16%;
+}
+
+.show-colors {
+    display: none;
+}
+
+
+
+.check-colors input[type="radio"] {
+    display: none;
+}
+
+.color-active {
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+.check-colors .check-option {
+    display: flex;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.54px;
+    line-height: 18px;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.check-colors span {
+    min-width: 30px;
+    height: 30px;
+    top: 10px;
+    position: relative;
+    border: 1px solid #E8E9EA;
+    display: inline-block;
+    margin-right: 10px;
+}

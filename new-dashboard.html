@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/new-dashboard.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>FlipWhipz</title>
+</head>
+
+<body>
+    <!-- =========================== HEADER ============================== -->
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  ">
+                <a class="navbar-brand" href="index.html">FlipWhipz</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-between">
+
+                        <li class="nav-item active ">
+                            <a class="nav-link" href="dashboard.html">dashboard</a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="index.html">car listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="action.html">auction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="financing.html">financing</a>
+                        </li>
+                        <li class="nav-item about">
+                            <a class="nav-link dropdown_toggle " href="#">about us <i class="fas fa-angle-down"></i></a>
+
+                            <ul class="dropdown">
+                                <li><a href="">dropdown</a></li>
+                                <li><a href="">dropdown</a></li>
+                                <li><a href="">dropdown</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="personal-block row fa-align-center">
+                    <div><a href="#"> <img src="svg/Icon.svg" alt="icon"></a></div>
+                    <div class="emvelope"><a href="#"> <img src="img/Emvelope.png" alt="Emvelope"></a></div>
+                    <div class="bell">
+                        <a href="#"> <img src="img/Bell.png" alt="bell"><span class="not-count"></span></a>
+
+
+                        <div class="notifications">
+                            <h3>notifications</h3>
+                            <ul>
+                                <li class="row align-items-center">
+                                    <div class="avatar mr-2"> <img src="img/avatar.jpg" alt="avatar"></div>
+                                    <div class="col">
+                                        <h5>brigit dawson</h5>
+                                        <span>4 hours ago</span>
+                                        <a href="">link</a>
+                                    </div>
+                                    <span class="new-not"></span>
+                                </li>
+                                <li class="row align-items-center">
+                                    <div class="avatar mr-2"> <img src="img/avatar.jpg" alt="avatar"></div>
+                                    <div class="col">
+                                        <h5>brigit dawson</h5>
+                                        <span>4 hours ago</span>
+                                        <a href="">link</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="see-all">See All</a>
+
+                        </div>
+
+
+                    </div>
+                    <div class="avatar"> <img src="img/avatar.jpg" alt="avatar"></div>
+                    <div class="avatar-icon dropdown_toggle"> <img src="svg/Angle_Down.svg" alt="angle"> </div>
+
+                    <ul class="dropdown">
+                        <li><a href="">dropdown</a></li>
+                        <li><a href="">dropdown</a></li>
+                        <li><a href="">dropdown</a></li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                    </div>
+                </button>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+    <!-- ================================================================= -->
+
+    <main>
+        <div class="container">
+            <div class="row  m-0 welcome p-4 mb-4">
+                <div class=" col-md-2 p-0">
+                    <img src="" alt="hi">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="mb-4">Welcome to FlipWhipz dashboard system!</h1>
+                    <p class="mb-0">Here you can book your appointment with Flipmaster and schedule Here you can book
+                        your
+                        appointment with Flipmaster and schedule Here you can book your appointment</p>
+                </div>
+                <span class="fas fa-times"></span>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <aside>
+                        <div class="card">
+                            <div class="m-0 card-header row justify-content-between align-items-center">
+                                <h2>your profile</h2>
+                                <span class="edit">edit</span>
+                            </div>
+                            <div class="card-body bg-white">
+
+                                <div class="dash-avatar text-center mb-3">
+                                    <div class="avatar_dash "><img src="img/avatar.jpg" alt=""></div>
+                                    <h3>jon snow</h3>
+                                    <div class="cust-select col-7 m-auto p-0">
+                                        <p class="mb-0"> <span>buyer</span> view
+                                            <i class="fas fa-angle-down ml-3"></i>
+                                        </p>
+
+                                        <ul class="isopen">
+                                            <li>bayer view</li>
+                                            <li>seller view</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <p class="loc-time"><span class="fas fa-map-marker-alt mr-2"></span>Los Angeles, Beverly
+                                    Hills</p>
+                                <p class="loc-time"><span class="fas fa-clock mr-2"></span>18.02.2019</p>
+                                <p class="loc-time"><span class="fas fa-star mr-2"></span>15 saves</p>
+                                <p class="loc-time"><span class="fas fa-eye mr-2"></span>765 views</p>
+
+                                <ul class="list-group verify">
+                                    <li class="list-group-item row justify-content-between p-lg-3 p-1">
+                                        <p class="col-10 m-0 p-0"> Verify (Identity and
+                                            Vehicle Info)</p> <span></span>
+                                    </li>
+
+                                    <li class="list-group-item row justify-content-between  p-lg-3 p-1">
+                                        <p class="col-10 m-0 p-0"> Vehicle Info</p> <span class="active"></span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                <h2>client detailes</h2>
+                            </div>
+
+                            <div class="card-body ">
+                                <div class="det-map">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385.58226357453145!2d-74.44119252242993!3d39.36397831356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0ef7a71b467fb%3A0xe1d23b7b24b55192!2sAirport+Chariot+Car+Service+and+Limo!5e0!3m2!1sru!2s!4v1562416417227!5m2!1sru!2s"
+                                        height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+
+                                <p class="loc-time mt-2">
+                                    <span class="fas fa-map-marker-alt mr-2"></span>
+                                    Airport Chariot Car Service and Limo, 1 Convention Boulevard Suite 2-291,
+                                    Atlantic City, NJ 08401</p>
+                                <p class="loc-time mt-2">
+                                    <span class="fas fa-calendar-alt mr-2"></span>
+                                    Wed Aug 12, 2019 10:00 am - 12:00 am </p>
+                                <p class="loc-time mt-2">
+                                    <span class="fas fa-user mr-2"></span>
+                                    <span class="id">id123456</span> (Flipmaster);
+                                    <span class="id">id123456</span> (Buyer)
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <div id="datepicker"> </div>
+                            <button class="btn text-white schedule btn-block"> <span
+                                    class="mr-2 fas fa-calendar-alt"></span> Schedule Appointment</button>
+
+
+                            <div class="card mt-4">
+                                <div class="card-header">
+                                    <h2>our services</h2>
+                                </div>
+
+                                <div class="card-body widgets">
+                                    <ul class="mb-0">
+
+                                        <li class="row align-items-center mb-lg-3 mb-2">
+                                            <div class="col-md-3 col-2 pr-0"><img src="img/dashboard/trade.png" alt="">
+                                            </div>
+                                            <div class="col-md-8 col-9">
+                                                <h5>trade-in</h5>
+                                                <p>You Only Deal With the Dealer. It is fast and convenient</p>
+                                            </div>
+                                            <span class="fas fa-chevron-right "></span>
+                                        </li>
+
+                                        <li class="row align-items-center mb-lg-3 mb-2">
+                                            <div class="col-md-3 col-2 pr-0"><img src="img/dashboard/trade.png" alt="">
+                                            </div>
+                                            <div class="col-md-8 col-9">
+                                                <h5>Recondition</h5>
+                                                <p>Buy high quality cars by cheaper price </p>
+                                            </div>
+                                            <span class="fas fa-chevron-right "></span>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                    </aside>
+                </div>
+
+                <div class="col-md-8">
+                    <!-- ========================================= YOUR CARS ========================================= -->
+                    <div class="card offer-timeline ">
+                        <div class="card-header row m-0 justify-content-between time-line align-items-center">
+                            <h2 class="mb-0">your cars</h2>
+                            <a href=""> add new</a>
+                        </div>
+
+                        <div class="card-body accordion-item">
+                                <div class=" ">
+                                        <div class="">
+                                            <div class=" row m-0">
+                                                <div class=" accor-img">
+                                                    <img src="img/1.jpg" alt="">
+                                                    <div class="row justify-content-center align-items-center sold-out"><span>Sold out</span></div>
+                                                </div>
+                                                <div class="col-lg-9 col-sm-7 mt-sm-0 mt-2 pl-0 pl-sm-2">
+                                                    <h4 class="">2016 Audi A4 2.0T quattro Premium Plus Sedan AWD <a href=""
+                                                            class="ml-2"><span class="fas fa-external-link-alt"></span></a>
+                                                    </h4>
+                                                    <p class="desc-car ">JTHCK262072012156</p>
+                                                    <p class="desc-car ">2016 • 201 000 km • 1800 cm3 • Gas • 2 owners</p>
+                                                </div>
+                                                <div class="setting col-1 m-0 p-0 text-right">
+                                                    <i class="fas fa-ellipsis-h "></i>
+        
+                                                    <div class="edit-remove text-left">
+                                                        <p class="mb-0"><span class="fas fa-pen"></span> edit </p>
+                                                        <p class="mb-0"><span class="fas fa-trash"></span> remove</p>
+                                                    </div>
+                                                </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                </div>
+
+
+                                <div class=" ">
+                                        <div class=" ">
+                                            <div class=" row m-0">
+                                                <div class=" accor-img">
+                                                    <img src="img/1.jpg" alt="">
+                                                </div>
+                                                <div class="col-lg-9 col-sm-7 mt-sm-0 mt-2 pl-0 pl-sm-2">
+                                                    <h4 class="">2016 Audi A4 2.0T quattro Premium Plus Sedan AWD <a href=""
+                                                            class="ml-2"><span class="fas fa-external-link-alt"></span></a>
+                                                    </h4>
+                                                    <p class="desc-car ">JTHCK262072012156</p>
+                                                    <p class="desc-car ">2016 • 201 000 km • 1800 cm3 • Gas • 2 owners</p>
+                                                </div>
+                                                <div class="setting col-1 m-0 p-0 text-right">
+                                                    <i class="fas fa-ellipsis-h "></i>
+        
+                                                    <div class="edit-remove text-left">
+                                                        <p class="mb-0"><span class="fas fa-pen"></span> edit </p>
+                                                        <p class="mb-0"><span class="fas fa-trash"></span> remove</p>
+                                                    </div>
+                                                </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                        </div>
+                    </div>
+
+                    
+
+                    <!-- ========================================= OFFERS ========================================= -->
+                    <div class="card mt-4">
+                        <ul class="specification justify-content-start mt-0 border-0">
+                            <li class="mr-3">vehicle specifications</li>
+                            <li class="mr-3 active">equipment</li>
+                        </ul>
+
+
+                        <div class="card-body accordion-item">
+                            <div class="card mb-4">
+                                <div class="card-header row m-0 align-items-center">
+                                    <h3 class="pl-0 col-11 mb-0">
+                                        2016 Audi A4 2.0T quattro Premium Plus Sedan AWD
+                                        <a href="" class="ml-2"><span class="fas fa-external-link-alt"></span></a>
+                                    </h3>
+                                </div>
+                                <div class="card-body test-drive">
+                                    <div class=" row m-0">
+                                        <div class=" accor-img">
+                                            <img src="img/1.jpg" alt="">
+                                        </div>
+                                        <div class="col-lg-10 col-sm-8 mt-sm-0 mt-2 pl-0 pl-sm-2">
+                                            <h4 class="text-capitalize">Prepurchase inspection</h4>
+                                            <p class="loc-time mt-2">
+                                                <span class="fas fa-map-marker-alt mr-1"></span>
+                                                Service and Limo, 1 Convention Boulevard Suite 2-291,
+                                                Atlantic City</p>
+                                            <p class="loc-time mt-2">
+                                                <span class="fas fa-calendar-alt mr-1"></span>
+                                                Wed Aug 12, 2019 10:00 am - 12:00 am </p>
+                                            <p class="loc-time mt-2">
+                                                <span class="fas fa-user mr-1"></span>
+                                                <span class="id mr-0">id123456</span>(Flipmaster);
+                                                <span class="id mr-0">id123456</span>(Buyer)
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row m-0 justify-content-between align-items-center mt-sm-4 mt-2">
+                                        <div>
+                                            <button class="btn btn-outline-success text-capitalize"><span
+                                                    class="mr-lg-2 mr-1 fas fa-check-circle"></span>accept</button>
+                                            <button class="btn btn-outline-warning text-capitalize"><span
+                                                    class="mr-lg-2 mr-1 fas fa-clock"></span>reschedule</button>
+                                            <button class="btn btn-outline-danger text-capitalize"><span
+                                                    class="mr-lg-2 mr-1 fas fa-times-circle"></span>decline</button>
+                                            <button class="btn btn-outline-info text-capitalize"><span
+                                                    class="mr-lg-2 mr-1 fas fa-envelope"></span>contact</button>
+                                        </div>
+                                        <span class="date-time">1 Aug, 11:08 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card ">
+                                    <div class="card-header row m-0 align-items-center">
+                                        <h3 class="pl-0 col-11 mb-0">
+                                            2016 Audi A4 2.0T quattro Premium Plus Sedan AWD
+                                            <a href="" class="ml-2"><span class="fas fa-external-link-alt"></span></a>
+                                        </h3>
+                                    </div>
+                                    <div class="card-body test-drive">
+                                        <div class=" row m-0">
+                                            <div class=" accor-img">
+                                                <img src="img/1.jpg" alt="">
+                                            </div>
+                                            <div class="col-lg-10 col-sm-8 mt-sm-0 mt-2 pl-0 pl-sm-2">
+                                                <h4 class="text-capitalize">Prepurchase inspection</h4>
+                                                <p class="loc-time mt-2">
+                                                    <span class="fas fa-map-marker-alt mr-1"></span>
+                                                    Service and Limo, 1 Convention Boulevard Suite 2-291,
+                                                    Atlantic City</p>
+                                                <p class="loc-time mt-2">
+                                                    <span class="fas fa-calendar-alt mr-1"></span>
+                                                    Wed Aug 12, 2019 10:00 am - 12:00 am </p>
+                                                <p class="loc-time mt-2">
+                                                    <span class="fas fa-user mr-1"></span>
+                                                    <span class="id mr-0">id123456</span>(Flipmaster);
+                                                    <span class="id mr-0">id123456</span>(Buyer)
+                                                </p>
+                                            </div>
+                                        </div>
+    
+    
+                                        <div class="row m-0 justify-content-between align-items-center mt-sm-4 mt-2">
+                                            <div>
+                                                <button class="btn btn-outline-success text-capitalize"><span
+                                                        class="mr-lg-2 mr-1 fas fa-check-circle"></span>accept</button>
+                                                <button class="btn btn-outline-warning text-capitalize"><span
+                                                        class="mr-lg-2 mr-1 fas fa-clock"></span>reschedule</button>
+                                                <button class="btn btn-outline-danger text-capitalize"><span
+                                                        class="mr-lg-2 mr-1 fas fa-times-circle"></span>decline</button>
+                                                <button class="btn btn-outline-info text-capitalize"><span
+                                                        class="mr-lg-2 mr-1 fas fa-envelope"></span>contact</button>
+                                            </div>
+                                            <span class="date-time">1 Aug, 11:08 PM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!-- ============================ FOOTER ============================ -->
+    <footer>
+        <div class="container">
+            <span class="to-top fas fa-chevron-up"></span>
+            <a href="index.html">flipwhipz</a>
+
+            <div class="row mt-5 ">
+                <div class="col-lg-3 col-sm-6">
+                    <h5>about</h5>
+                    <ul>
+                        <li><a href="">Who we are</a></li>
+                        <li><a href="">Who choose us</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="">Flipwhipz for business</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>services</h5>
+                    <ul>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>contact us</h5>
+                    <ul>
+                        <li class="pr-lg-3">66 Perry St, New York, NY 10014, United States</li>
+                        <li><a href="tel:+458787814">+45 878-78-14</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>subscribe</h5>
+                    <ul>
+                        <li>Join our newsletter to get updates </li>
+                        <li>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email"
+                                        aria-label="Recipient's username">
+                                    <div class="input-group-append">
+                                        <button class="btn" type="button">join</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="soc-icon">
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row copy">
+                <div class="col-md-6">
+                    <a href="terms-of-use.html">Terms of use </a>
+                    <a href="privacy-policy.html">Privacy policy </a>
+                    <a href="download.html">Download</a>
+                    <a href="news.html"> News</a>
+                </div>
+                <div class="col-md-6 text-md-right"> © 2019 FlipWhipz. All rights reserved</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $(this).scrollTop() > 100 ?
+                    $('.to-top').fadeIn(500) :
+                    $('.to-top').fadeOut(500)
+            })
+
+            $('.to-top').click(() => {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('.wrapper-menu').click(function () {
+                $(this).toggleClass('open');
+                $('.collapse').slideToggle()
+            })
+
+            $('.welcome span').click(() => {
+                $('.welcome').slideUp(200)
+            })
+
+            $(function () {
+                $("#datepicker").datepicker();
+            });
+
+            $('.cust-select p').click(function () {
+                $('.cust-select ul').toggleClass('isopen');
+            })
+
+            $('.cust-select li').click(function () {
+                let value = $(this).html().split(' ')[0];
+                $('.cust-select span').html(value);
+                $('.cust-select ul').addClass('isopen');
+            })
+        })
+
+    </script>
+
+</body>
+
+</html>

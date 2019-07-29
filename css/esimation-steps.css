@@ -1,0 +1,356 @@
+.select-year, .select-make {
+    color: #028FEE;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.select-make {
+    padding: 0 4.5%;
+}
+
+.choosed-values {
+    border-top: 1px solid #E5E7EA;
+    border-bottom: 1px solid #E5E7EA;
+    background-color: #FFFFFF;
+    padding: 2.5% 4.5%;
+    margin: 0 0 4.5%;
+}
+
+.select-container {
+    display: block;
+    position: relative;
+    text-transform: capitalize;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #272831;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    padding: 10px 10px 10px 30px;
+}
+
+.select-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: url(../svg/Circle.svg) center center/cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.select-container:hover {
+    border-radius: 4px;
+    background-color: #E8E9EA;
+}
+
+.select-container:hover input~.color-check, .select-container input:checked~.color-check {
+    background: url(../svg/Check.svg) center center/cover;
+}
+
+.select-container:hover input~.checkmark, .select-container input:checked~.checkmark {
+    background: url(../svg/Check.svg) center center/cover;
+}
+
+.color-check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.select-container input:checked~.color-check:after {
+    display: block;
+}
+
+.estimate-body h3 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #272831;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.67px;
+}
+
+.estimate-body.st-2 {
+    margin-bottom: 6%;
+}
+
+.bord-top p {
+    width: 12.5%;
+}
+
+/* =============================================== */
+
+.choose-tab {
+    padding: 3px 1%;
+    border: 1px solid rgba(110, 118, 143, 0.2);
+    background-color: #ECEEF4;
+    text-transform: capitalize;
+    margin-right: 15px;
+    color: #272831;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.54px;
+    line-height: 16px;
+}
+
+.choose-tab button {
+    color: #90969F;
+}
+
+.sel-color {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.sel-color input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.color-check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #E8E9EA;
+}
+
+.sel-color input:checked~.color-check, .sel-color:hover input~.color-check {
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+.color-check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.sel-color input:checked~.color-check:after {
+    display: block;
+}
+
+.sel-color .color-check:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* ============================================= */
+
+.form-control.mileage::placeholder {
+    color: rgba(39, 40, 49, 0.3)
+}
+
+.input-group-text.miles {
+    color: #6E768F;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 23px;
+    background: none;
+    border-left: none
+}
+
+.form-control.mileage {
+    padding: 16px;
+    font-size: 18px;
+    color: #028fee;
+    border: 1px solid #CED7E0;
+    border-radius: 2px;
+    border-right: none;
+    background-color: #FFFFFF;
+}
+
+#slider-range-max {
+    width: 100%;
+    height: 8px;
+    border: none;
+    background: #F82200;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.ui-slider-handle.ui-corner-all:focus {
+    outline: none;
+}
+
+.ui-slider-handle.ui-corner-all {
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 4px solid #F82200;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.ui-slider-horizontal .ui-slider-range-max {
+    background: #fee8e5;
+}
+
+/* ========================OFFER=========================== */
+
+.total-price {
+    text-align: center;
+    color: #F82200;
+    font-size: 44px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.learn-trade, .create-ad {
+    padding: 14px 0;
+}
+
+.learn-trade {
+    border: 1px solid #272831;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #272831;
+    margin-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.offer-date {
+    color: #F82200;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.47px;
+    text-align: center;
+    margin: 5% 0 3%;
+    display: block;
+}
+
+/* ======================================== */
+
+.estimation-offer label {
+    color: #6E768F;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.estimation-offer i {
+    color: #6E768F;
+}
+
+.estimation-offer input {
+    color: #5D5F6E;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.47px;
+    line-height: 18px;
+    border-right: none;
+}
+
+.input-group-text {
+    background: #ffffff;
+    border-left: none;
+}
+
+.upload-your-file {
+    border: 1px solid #E5E7EA;
+    background-color: #F7F8FC;
+    margin-top: 11%;
+}
+
+.upload-your-file span {
+    font-size: 35px;
+    color: #6E768F;
+}
+
+.upload-your-file h4 {
+    color: #434552;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.upload-your-file p {
+    color: #6E768F;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.47px;
+}
+
+.chossed-file img {
+    width: 14px;
+}
+
+.chossed-file {
+    color: #6E768F;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.47px;
+}
+
+.chossed-file span{
+    font-size: 25px;
+    margin-right: 2%;
+}
+.chossed-file p{
+
+    position: relative;
+    border-bottom: 2px solid #E8E9EA;
+}
+.chossed-file p::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #028FEE;
+    left: 0;
+    bottom: -2px;
+    animation: upload_file 1s ease-out;
+    -webkit-animation: upload_file 1s ease-out;
+}
+
+@keyframes upload_file{
+    from{width: 0;}
+    to{width: 100%;}
+}
+.estim-user.next-step{
+    margin-top: 31%;
+}

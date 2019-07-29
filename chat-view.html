@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/chat-view.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>FlipWhipz</title>
+</head>
+
+<body>
+    <!-- =========================== HEADER ============================== -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  ">
+                <a class="navbar-brand" href="index.html">FlipWhipz</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-between">
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="index.html">car listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="action.html">action</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="financing.html">financing</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sell-my-car.html">sell my car</a>
+                        </li>
+                        <li class="nav-item about">
+                            <a class="nav-link dropdown_toggle " href="#">about us <i class="fas fa-angle-down"></i></a>
+
+                            <ul class="dropdown">
+                                <li><a href="">dropdown</a></li>
+                                <li><a href="">dropdown</a></li>
+                                <li><a href="">dropdown</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="personal-block row fa-align-center">
+                    <div><a href="#"> <img src="svg/Icon.svg" alt="icon"></a></div>
+                    <div class="emvelope"><a href="#"> <img src="img/Emvelope.png" alt="Emvelope"></a></div>
+                    <div class="bell">
+                        <a href="#"> <img src="img/Bell.png" alt="bell"><span class="not-count"></span></a>
+
+
+                        <div class="notifications">
+                            <h3>notifications</h3>
+                            <ul>
+                                <li class="row align-items-center">
+                                    <div class="avatar mr-2"> <img src="img/avatar.jpg" alt="avatar"></div>
+                                    <div class="col">
+                                        <h5>brigit dawson</h5>
+                                        <span>4 hours ago</span>
+                                        <a href="">link</a>
+                                    </div>
+                                    <span class="new-not"></span>
+                                </li>
+                                <li class="row align-items-center">
+                                    <div class="avatar mr-2"> <img src="img/avatar.jpg" alt="avatar"></div>
+                                    <div class="col">
+                                        <h5>brigit dawson</h5>
+                                        <span>4 hours ago</span>
+                                        <a href="">link</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="see-all">See All</a>
+
+                        </div>
+
+
+                    </div>
+                    <div class="avatar"> <img src="img/avatar.jpg" alt="avatar"></div>
+                    <div class="avatar-icon dropdown_toggle"> <img src="svg/Angle_Down.svg" alt="angle"> </div>
+
+                    <ul class="dropdown">
+                        <li><a href="">dropdown</a></li>
+                        <li><a href="">dropdown</a></li>
+                        <li><a href="">dropdown</a></li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                    </div>
+                </button>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+    <!-- ================================================================= -->
+
+    <main class="chat-view">
+        <div class="container">
+            <h1>chat</h1>
+            <p class="conver-count">You have 3 unread conversations</p>
+            <div class="row m-0">
+                <aside class="col-4 chat-box p-0">
+                    <div class="">
+                        <div class="search-bar ">
+
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="search messages"
+                                    aria-label="Username">
+                            </div>
+                        </div>
+                        <ul class="mb-0">
+                            <li class="chat active">
+                                <div class=" row justify-content-between ">
+                                    <div class="chat-avat col-2">
+                                        <div class="avatar">
+                                            <img src="img/avatar.jpg" alt="avatar">
+                                        </div>
+                                        <span class="unread-mess">2</span>
+                                    </div>
+
+                                    <div class="col-md-10 col-9 ">
+                                        <h6 class="row m-0 justify-content-between">
+                                            Ekaterina Tankova
+                                            <span><i class="fas fa-check"></i> 08:43 am </span>
+                                        </h6>
+                                        <p class="short-mess">I'm interested in your vehicle. Please contact me.I'm
+                                            interested in your vehicle.</p>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class=" col-3 pr-0">
+                                        <img src="img/1.jpg" alt="car" class="rounded">
+                                    </div>
+
+                                    <div class="col-9 ">
+                                        <h6 class="mb-0 ">
+                                            2016 Audi A4 2.0T quattro Premium Plus Sedan AWD
+                                        </h6>
+                                        <p class="pb-0 mb-0">
+                                            <span class="chat-price">$2.500</span>
+                                            <a href="#" class="chat-link"><i class="fas fa-external-link-alt"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+
+
+                        </ul>
+
+                    </div>
+
+                </aside>
+
+                <section class="col-8 pr-0">
+                    <div class="message-block">
+
+                        <div class="message-header row m-0 p-2 align-items-center">
+                            <div>
+                                <h5 class="mb-0">jon snow</h5>
+                                <p class="mess-sb-title mb-0">Last seen 2 hours age</p>
+                            </div>
+                            <div class="row justify-content-end col align-items-start">
+                                <div class="text-right">
+                                    <p class="car-desc">2016 Audi A4 2.0T quattro Premium Plus Sedan AWD</p>
+                                    <span class="chat-price">$2.500</span>
+                                    <a href="#" class="chat-link"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <div class="col-2 pr-0 d-none d-md-block">
+                                    <img src="img/car.jpg" alt="car">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="message-body">
+                            <div class="row m-0 p-3">
+                                <div class="avatar mr-lg-4 mr-2">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="align-items-start  row">
+                                    <p class="incoming message mb-0 ">Promotional</p>
+                                </div>
+                                <span class="mess-time ">07:55 am</span>
+                            </div>
+
+                            <div class="row  m-0  justify-content-end p-3">
+                                <span class="mess-time  text-right">07:55 am</span>
+                                <div class="align-items-start">
+                                    <p class="outgoing message mb-0 ">Promotional</p>
+                                </div>
+                                <div class="avatar">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="row m-0 p-3">
+                                <div class="avatar mr-lg-4 mr-2">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="align-items-start  row">
+                                    <p class="incoming message mb-0 ">Promotional</p>
+                                </div>
+                                <span class="mess-time">19 may at 07:55 am</span>
+                            </div>
+
+                            <div class="row  m-0  justify-content-end p-3">
+                                <span class="mess-time  text-right">07:55 am</span>
+                                <div class="align-items-start">
+                                    <p class="outgoing message mb-0 ">hi</p>
+                                </div>
+                                <div class="avatar">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="row m-0 p-3">
+                                <div class="avatar mr-lg-4 mr-2">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="align-items-start  row">
+                                    <p class="incoming message mb-0 "> Prom Promotional motio nal otio nal Prom
+                                        Promotional motio nal otio Prom Promotional motio nal otio nal Prom Promotional
+                                        motio nal otio nal </p>
+                                </div>
+                                <span class="mess-time  ">19 may at 07:55 am</span>
+                            </div>
+
+                            <div class="row  m-0  justify-content-end p-3">
+                                <span class="mess-time text-right">19 may at 07:55 am</span>
+                                <div class="align-items-start">
+                                    <p class="outgoing message mb-0 ">it is a friday party</p>
+                                </div>
+                                <div class="avatar">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="row m-0 p-3">
+                                <div class="avatar mr-lg-4 mr-2">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="mess-load">
+                                    <span class="fas fa-circle"></span>
+                                    <span class="fas fa-circle"></span>
+                                    <span class="fas fa-circle"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="empty"></div>
+                        <div class="message-footer">
+                            <form action="">
+                                <div class="form-row  justify-content-between">
+                                    <label class="attach-file mb-0">
+                                        <input type="file">
+                                        <span class="fas fa-paperclip"></span>
+                                    </label>
+                                    <textarea placeholder="Type your message here"></textarea>
+                                    <button class="send-message   align-self-start">
+                                        <span class="fas ">&#x27A4;</span>
+                                    </button>
+                                </div>
+                            </form>
+
+                            <div class="files row pb-2"></div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- =============================== FOOTER ============================= -->
+
+    <footer>
+        <div class="container">
+            <span class="to-top fas fa-chevron-up"></span>
+            <a href="index.html">flipwhipz</a>
+
+            <div class="row mt-5 ">
+                <div class="col-lg-3 col-sm-6">
+                    <h5>about</h5>
+                    <ul>
+                        <li><a href="">Who we are</a></li>
+                        <li><a href="">Who choose us</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="">Flipwhipz for business</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>services</h5>
+                    <ul>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                        <li><a href="">title</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>contact us</h5>
+                    <ul>
+                        <li class="pr-lg-3">66 Perry St, New York, NY 10014, United States</li>
+                        <li><a href="tel:+458787814">+45 878-78-14</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h5>subscribe</h5>
+                    <ul>
+                        <li>Join our newsletter to get updates </li>
+                        <li>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email"
+                                        aria-label="Recipient's username">
+                                    <div class="input-group-append">
+                                        <button class="btn" type="button">join</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="soc-icon">
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row copy">
+                <div class="col-md-6">
+                    <a href="terms-of-use.html">Terms of use </a>
+                    <a href="privacy-policy.html">Privacy policy </a>
+                    <a href="download.html">Download</a>
+                    <a href="news.html"> News</a>
+                </div>
+                <div class="col-md-6 text-md-right"> © 2019 FlipWhipz. All rights reserved</div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script>
+        $('docoment').ready(function () {
+            $(window).scroll(function () {
+                $(this).scrollTop() > 100 ?
+                    $('.to-top').fadeIn(500) :
+                    $('.to-top').fadeOut(500)
+            })
+
+            $('.to-top').click(() => {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('.dropdown_toggle').click(function () {
+                $(this).next().slideToggle(500);
+            })
+
+            $('body').click(function () {
+                $('.check-colors').css('display', 'none');
+                $('.notifications').slideUp(300);
+            })
+
+            $('.wrapper-menu').click(function () {
+                $(this).toggleClass('open');
+                $('.collapse').slideToggle();
+            })
+
+            $('.bell img').click(function (e) {
+                $('.notifications').slideToggle(500);
+                e.stopPropagation();
+            })
+
+            $('.notifications').click(function (e) {
+                e.stopPropagation();
+            })
+
+            $('.message-footer textarea').focus(() => {
+                $('.message-footer ').css('border', '1px solid #028FEE');
+            })
+
+            $('.chat').click(function () {
+                $('.chat').removeClass('active');
+                $(this).addClass('active');
+            })
+
+        })
+
+
+
+        var observe;
+        if (window.attachEvent) {
+            observe = function (element, event, handler) {
+                element.attachEvent('on' + event, handler);
+            };
+        }
+        else {
+            observe = function (element, event, handler) {
+                element.addEventListener(event, handler, false);
+            };
+        }
+        function init() {
+            var text = document.querySelector('textarea')
+            function resize() {
+                text.style.height = 'auto';
+                text.style.height = text.scrollHeight + 'px';
+            }
+            /* 0-timeout to get the already changed text */
+            function delayedResize() {
+                window.setTimeout(resize, 0);
+            }
+            observe(text, 'change', resize);
+            observe(text, 'cut', delayedResize);
+            observe(text, 'paste', delayedResize);
+            observe(text, 'drop', delayedResize);
+            observe(text, 'keydown', delayedResize);
+
+            text.focus();
+            text.select();
+            resize();
+        }
+        init();
+
+
+        let choosed_elements = [], i = 0;
+        $('input').on('change', function (event) {
+
+            let type = event.target.files[0].type.split('/')[0];
+            let name = event.target.files[0].name;
+
+            choosed_elements.push(name);
+
+            let elm = $('<div></div>');
+            let del = $('<span></span>');
+            elm.addClass('attach-elm');
+            del.addClass('fas fa-times delete').attr('id', i);
+
+            if (type == 'image') {
+                let img = $('<img>');
+                img.attr('src', 'img/' + name);
+                elm.append(img);
+            } else if (type == 'text') {
+                let span = $('<span></span>')
+                span.addClass('fas fa-file-alt att-file');
+                elm.css({ 'background': '#E5F3FD' })
+                elm.append(span)
+            }
+
+            elm.append(del);
+            $('.files').append(elm);
+
+            $('.delete').click(function (event) {
+                event.preventDefault();
+                $(this).parent().remove();
+
+                delete choosed_elements[event.target.id];
+                console.log(choosed_elements)
+            })
+
+            i++;
+            console.log(choosed_elements)
+        })
+
+    </script>
+
+</body>
+
+</html>

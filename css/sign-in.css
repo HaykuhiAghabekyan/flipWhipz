@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(../fonts/CircularStd-Medium.ttf);
+    font-family: "Circular Std";
+}
+input:focus{
+    box-shadow: none !important;
+}
+main {
+    background-color: rgba(102, 118, 128, 0.7);
+    padding: 12% 0;
+}
+
+.sign-in {
+    border: 1px solid #E5E7EA;
+    background-color: #FFFFFF;
+    padding: 4.4% 0 6%;
+}
+
+h1 {
+    color: #272831;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 42px;
+    text-transform: capitalize;
+}
+
+p {
+    color: #8E8F97;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.53px;
+    line-height: 22px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+label {
+    color: #6E768F;
+    font-family: "Circular Std";
+    font-size: 12px;
+    font-weight: 300;
+text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+}
+
+input{
+height: 42px;
+
+	color: #5D5F6E;
+	font-family: "Circular Std";
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.47px;
+	line-height: 18px;
+}
+a {
+	height: 16px; 
+	color: #F82200;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+}
+button{
+  background: #4db0f3 !important;
+  color: #FFFFFF !important;
+}
+.input-group-text{
+    background: none;
+    border-left: none;
+}
+.input-group>.form-control:not(:last-child){
+    border-right:none;
+}
+.lock{
+    cursor: pointer;
+}
+
+
+@media(max-width:500px){h1{
+    font-size: 27px;
+    line-height: 30px;
+}
+p,input{
+    font-size: 13px;
+}
+}

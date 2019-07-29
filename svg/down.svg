@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>2AC5D4BD-C8B4-45DC-93AF-59B98AD2340B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="8.152 3 9 3.78712871 5 7.5 1 3.78712871 1.848 3 5 5.92574257"></polygon>
+    </defs>
+    <g id="Car-Listing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page---tagsearch" transform="translate(-535.000000, -38.000000)">
+            <g id="navigation">
+                <g id="ic/phone-copy" transform="translate(534.000000, 35.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="color/grey" mask="url(#mask-2)" fill="#F82200">
+                        <rect id="Rectangle" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>2DCA51A0-4F96-4075-A70D-79D89304AB0E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Car-Listing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Car-Single-Page-(Buyer-View)" transform="translate(-181.000000, -255.000000)">
+            <g id="Group-22" transform="translate(166.000000, 240.000000)">
+                <g id="Icon-Copy-4" transform="translate(15.000000, 12.000000)">
+                    <g id="baseline-build-24px">
+                        <polygon id="Path" points="0 0 18 0 18 18 0 18"></polygon>
+                    </g>
+                    <g id="iconmonstr-window-21" transform="translate(0.000000, 3.600000)" fill="#6E768F">
+                        <path d="M14.113125,1.70999998 L9.45224987,5.73637508 C8.69287485,5.58112508 7.87612483,5.81287509 7.32149981,6.4316251 C6.49462479,7.35862513 6.57337479,8.78062516 7.50037482,9.60862518 C8.42624984,10.4366252 9.84937488,10.3567502 10.6773749,9.43087518 C11.2308749,8.81100016 11.3703749,7.97287514 11.1296249,7.23600012 L14.625,2.16562499 L14.113125,1.70999998 Z" id="Path"></path>
+                        <path d="M3.37499995,9 L0,9 C0,4.033125 4.03312493,0 9,0 C10.3083748,0 11.5526248,0.280125 12.6753748,0.783 L9.53662485,3.39975 L8.99999985,3.375 C5.8961249,3.375 3.37499995,5.895 3.37499995,9 Z" id="Path"></path>
+                        <path d="M17.9999996,9 L14.6249996,9 C14.6249996,8.02800002 14.3786246,7.11450003 13.9443747,6.31687505 L15.8894996,3.2107501 C17.2057496,4.77675008 17.9999996,6.79612504 17.9999996,9 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

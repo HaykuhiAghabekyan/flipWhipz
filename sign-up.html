@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/sign-in.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Sign In</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="col-lg-8  col-md-10 m-auto sign-in">
+                <h1>sign in</h1>
+                <p>Welcome Back! Sign In to continue to FlipWhipz</p>
+
+
+                <form class="pt-3 col-xl-7  col-md-9 m-auto">
+                    <div class="form-group align-items-center">
+
+                        <div class="col-auto">
+                            <label for="email">email</label>
+                            <div class="input-group mb-4">
+                                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="far fa-user"></i></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-auto">
+                            <label for="password">password</label>
+                            <div class="input-group mb-4">
+                                <input type="password" class="form-control" id="password" placeholder="Enter your Password">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text lock"><i class="fas fa-lock"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <a href="">Forgot Password?</a>
+                        </div>
+
+                        <div class="col-auto mt-sm-5 mt-2">
+                            <button type="submit" class="btn btn-block mb-2">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <p>Don’t have an account? <a href="">Sign Up here</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        let isOpen = false;
+        $('.lock').click(function () {
+            if (!isOpen) {
+                $('#password').attr('type', 'text');
+                $(this).children('i').attr('class', 'fas fa-lock-open');
+                isOpen = !isOpen;
+            } else {
+                $('#password').attr('type', 'password');
+                isOpen = !isOpen;
+                $(this).children('i').attr('class', 'fas fa-lock');
+
+            }
+
+        })
+$('input').focus(function(){
+    $(this).next().children('.input-group-text').css('border-color','#80bdff')
+})
+    </script>
+
+</body>
+
+</html>

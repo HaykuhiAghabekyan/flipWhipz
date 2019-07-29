@@ -1,0 +1,53 @@
+
+input[type='radio'] {
+    display: none;
+}
+
+.yes,.no { 
+      width: 88px;
+      padding: 14px 0;
+      text-align: center;
+      font-size: 14px;
+      text-transform: capitalize;
+      font-weight: 500;
+      letter-spacing: 0.47px;
+      border-radius: 2px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      transition: .5s;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+}
+
+.yes {
+    color: #009D53;
+    background-color: rgba(0, 157, 84, 0.1);
+    margin-right: 12px;
+}
+.yes:hover,.yes.active {
+    color: #fff;
+    background-color: #009D53;
+
+}
+.no:hover,.no.active {
+    color: #fff;
+    background-color: #F82200;
+
+}
+.no { 
+    color: #F82200;  
+    background-color: rgba(248, 33, 0, 0.1);
+}
+.question-box {
+	color: #272831;
+	font-size: 16px;
+	font-weight: 300;
+    line-height: 20px;
+    padding : 20px 0;
+    border-bottom: 1px solid #E5E7EA;
+}
+

@@ -1,0 +1,84 @@
+.create-account {
+    background-color: #F7F8FC;
+    padding: 6.5% 0 10%;
+}
+
+.create-accoun {
+    border: 1px solid #E5E7EA;
+    padding: 4.5% 0 5.5%;
+    background: #ffffff;
+}
+
+.create-your-account h1 {
+    color: #1D1E1F;
+    font-family: "Circular Std";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.create-your-account p {
+    color: #6E768F;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.53px;
+}
+
+.member li {
+    list-style-image: url(../svg/greencheck.svg);
+    color: #6E768F;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-left: 14px;
+    list-style-position: inside;
+}
+
+.member {
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: .5s;
+    box-sizing: content-box;
+    border: 2px solid transparent;
+}
+
+.member h2 {
+    background-color: #272831;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 66px;
+    text-align: center;
+    padding: 3.5% 0;
+    text-transform: uppercase;
+}
+
+.member ul {
+    margin: 14% 0 7%;
+    padding-left: 2%;
+}
+
+.member:hover {
+    border: 2px solid #028FEE;
+}
+
+.member:hover h2 {
+    background: #028FEE;
+}
+
+.next {
+    background: #028FEE;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 12%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3% 0;
+    letter-spacing: 2px;
+}
+
+.next:hover {
+    color: #fff;
+    opacity: .8;
+}

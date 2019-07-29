@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>verify Mobile</title>
+    <style>
+        /* .verify label {
+            font-family: 'Roboto', sans-serif;
+            color: #6E768F;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .verify input {
+            width: 100%;
+            color: #272831;
+            font-size: 14px;
+            padding: 12px 15px;
+            border: 1px solid #CED7E0;
+            border-radius: 2px;
+            background-color: #FFFFFF;
+        }
+  */
+      .next {
+            background: #028FEE;
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: 12%;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 3% 0;
+            letter-spacing: 2px;
+        }
+
+        .next:hover {
+            color: #fff;
+            opacity: .8;
+        } 
+       
+.step-2 input {
+    height: 62px;
+    width: 62px;
+    padding: 0 20px;
+    border: 1px solid #CED7E0;
+    border-radius: 2px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.step-2 input:focus {
+    border: 1px solid #028FEE !important;
+}
+
+.step-2 {
+    margin: 40px 0 0;
+}
+
+.receive-your {
+    color: #272831;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.receive-code span {
+    color: #F82200;
+    cursor: pointer;
+}
+
+.step-2 input::-webkit-outer-spin-button, .step-2 input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+p.code-error {
+    color: #F82200;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: rgba(248, 34, 0, .15);
+    border-radius: 3px;
+    display: none;
+}
+
+.verify-code span {
+    border-radius: 50%;
+    background-color: #F82200;
+    padding: 4px 9px;
+    color: #fff;
+}
+
+.signUp p {
+    position: relative;
+}
+
+.signUp p span {
+    position: absolute;
+    right: 3%;
+    top: 23%;
+}
+
+.security {
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+    <!-- =========================== HEADER ============================== -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  ">
+                <a class="navbar-brand" href="index.html">FlipWhipz</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-between">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">car listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="action.html">action</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="financing.html">financing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="sell-my-car.html">sell my car</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="about-us.html">about us <i class="fas fa-angle-down"></i></a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="btn-group ml-auto">
+                        <a href="#" class="btn sign-in sign "  >sign in</a>
+                        <a href="#" class="btn sign-up sign "  >sign up</a>
+                    </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                    </div>
+                </button>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- =========================== MAIN ============================== -->
+    <main  class="create-account">
+            <section class="create-your-account verify ">
+                <div class="container">
+                    <div class="create-accoun col-lg-8 col-md-10 m-auto ">
+                        <div class="row justify-content-center">
+                            <div class="text-center">
+                                <h1>2-Step Verification</h1>
+                                <p class="mt-4 pl-5 pr-5 mb-3"> A text message with your code has been sent to (310) 555-0137
+                                </p>
+                                <p class="code-error col-6 m-auto pt-3 pb-3">
+                                    <span class="mr-2">!</span>
+                                    Verification code is invalid
+                                </p>
+                            </div>
+        
+                            <form action="" class="step-2 col-xl-6 col-md-7 col-10 ">
+                                <div class="row justify-content-around col-11 m-auto">
+                                    <input type="number" min="0" max="9">
+                                    <input type="number" min="0" max="9">
+                                    <input type="number" min="0" max="9">
+                                    <input type="number" min="0" max="9">
+                                </div>
+        
+        
+                                <p class="verify-mobile">
+                                    <button class="btn col-12 next" type="button">Verify my mobile</button>
+        
+                                </p>
+                            </form>
+                        </div>
+                        <p class="receive-code text-center mt-4">Didn`t receive your code? <span>Send it again</span></p>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+</body>
+
+</html>
